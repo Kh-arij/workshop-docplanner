@@ -1,0 +1,338 @@
+.bg-white {
+    background-color:#fff!important;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.myLogo{
+    height: 33px !important;
+
+}
+.myNav{
+   max-width: 1016px !important;
+   width: 100%;
+ 
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+    color: #00b39b !important;
+      
+}
+h1 {
+    font-size: 2.125rem;
+    color: #00b39b;
+    text-align: center;
+    font-weight: 300;
+    font-family: 'Work Sans', sans-serif;
+}
+
+h2 {
+
+    font-size: 28px;
+    color: #00b39b;
+    text-align: left;
+    font-weight: 300;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.card-patient{
+    background-color: #00b39b;
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    overflow: hidden;
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all .2s ease 0s;
+    
+}
+.card-patient  img{
+    height: 25px;
+    width: 25px;
+}
+.card-patient h1{
+    color: #fff;
+    text-align: left;
+}
+.card-patient p{
+    font-size: 24px;
+    color: #fff;
+}
+.card-doctors{
+    background-color: #3d83df;
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    overflow: hidden;
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all .2s ease 0s;
+    
+}
+.card-doctors  img{
+    height: 25px;
+    width: 25px;
+}
+.card-doctors h1{
+    color: #fff;
+    text-align: left;
+}
+.card-doctors p{
+    font-size: 24px;
+    color: #fff;
+}
+.card-container{
+    padding: 15px;
+
+}
+.card-clinics{
+    background-color: #1b2734;
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    overflow: hidden;
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all .2s ease 0s;
+    
+}
+.card-clinics  img{
+    height: 25px;
+    width: 25px;
+}
+.card-clinics h1{
+    color: #fff;
+    text-align: left;
+}
+.card-clinics p{
+    font-size: 24px;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.selection{
+    margin-bottom: 35px;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    outline: 0;
+    background: none;
+    border: 0;
+    color: #fff;
+    font-family: Roboto,Arial,sans-serif;
+    font-weight: 400;
+    letter-spacing: .04em;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.selection select{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    padding: 0 2em 0 0;
+    -webkit-appearance: none;
+    outline: 0;
+    text-transform: none;
+    text-decoration: underline;
+    cursor: pointer;
+    color:#fff
+}
+.selection::after{
+    background: no-repeat url(../img/shevron-down.svg) 50% 50%;
+    content: "";
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    margin-top: -.5em;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    margin-right: .2em;
+    line-height: 1em;
+    background-size: 8px;
+    pointer-events: none;
+}
+
+.logos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 0;
+    
+    
+    list-style: none;
+}
+
+
+
+
+
+
+.logos a {
+    display: inline-block;
+    padding: 5px 0;
+    fill:#ccc;
+   
+}
+
+.logos a:hover{
+    fill: #00b39b;  
+
+}
+
+.logos li {
+    font-size: 1rem;
+    display: inline-block;
+    margin-right: 15px;
+    padding: 5px 0;
+    
+}
+
+
+.logos li img{
+    
+  -webkit-filter: grayscale(100);
+  filter: grayscale(100);
+}
+
+
+.logos li img:hover{
+    
+    -webkit-filter: none;
+    filter:none
+  }
+
+
+
+
+
+.state{
+    background: #e5faf8;
+    background-image: linear-gradient(-45deg ,rgba(0,204,177,.01) 5%,rgba(61,199,223,.1));
+    padding: 1.875em 0 .625em;
+    overflow: hidden;
+    margin: 3.125rem auto 5.5rem;
+    height: fit-content;
+    
+
+}
+
+.item {
+    
+        background-color: #fff!important;
+        border-radius: 5px;
+        box-shadow: 0 1px 4px 0 rgb(0 0 0 / 5%);
+        height: 250px;
+        text-align: center;
+        padding: 15px;
+        
+        
+    }
+
+    .item h3{
+    font-family: 'Work Sans', sans-serif;
+    color: #00b39b;
+    margin: .5em 0;
+    font-weight: 300;
+    }
+
+    .item p{
+        font-size: 12px;
+        font-family: Roboto,Arial,sans-serif;
+        color: #747474;
+    }
+.logos img {
+    margin-right:20px!important;
+    margin-left:20px;
+}
+
+
+.mycards:hover {
+    box-shadow: 0 20px 50px 0 rgb(0 0 0 / 13%);
+    transition: box-shadow .2s ease 0s;
+}
+
+.btnp {
+    float: right!important;
+    position: relative;
+    
+    vertical-align: middle;
+         outline: 0;
+    border: 0;
+    border-radius: 4px;
+    padding: 1em 1.5em;
+    background: #3d83df;
+    font-family: Roboto,Arial,sans-serif;
+    line-height: 1em;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: .04em;
+    font-size: .625rem;
+    padding-top:12px;
+    text-align: center;
+    text-decoration: none!important;
+    text-transform: uppercase;
+    transition: all .2s ease 0s;
+    
+}
+
+h5{
+    padding-left:5px;
+    color:#747474;
+    font-weight: 500;
+}
+
+.myCards {
+    border: 1px solid rgba(0,0,0,.03);
+}
+
+
+.btnl {
+    
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    padding: 1.1666666667em 1.5em;
+    background: #3d83df;
+    font-family: Roboto,Arial,sans-serif;
+    line-height: 1em;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: .04em;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none!important;
+    text-transform: uppercase;
+    transition: all .2s ease 0s;
+}
+
+
+.btnl:hover {
+    
+    
+    color: #fff;
+    background-color: #1662c6;
+    
+}
+
+
